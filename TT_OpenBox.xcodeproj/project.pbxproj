@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4AC2111CB52083000B5625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2101CB52083000B5625 /* main.m */; };
+		EB4AC2141CB52083000B5625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2131CB52083000B5625 /* AppDelegate.m */; };
+		EB4AC2171CB52083000B5625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2161CB52083000B5625 /* ViewController.m */; };
+		EB4AC21A1CB52083000B5625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC2181CB52083000B5625 /* Main.storyboard */; };
+		EB4AC21C1CB52083000B5625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC21B1CB52083000B5625 /* Assets.xcassets */; };
+		EB4AC21F1CB52083000B5625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC21D1CB52083000B5625 /* LaunchScreen.storyboard */; };
+		EB4AC22A1CB52083000B5625 /* TT_OpenBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2291CB52083000B5625 /* TT_OpenBoxTests.m */; };
+		EB4AC2351CB52083000B5625 /* TT_OpenBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2341CB52083000B5625 /* TT_OpenBoxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4AC2261CB52083000B5625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4AC2041CB52082000B5625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4AC20B1CB52083000B5625;
+			remoteInfo = TT_OpenBox;
+		};
+		EB4AC2311CB52083000B5625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4AC2041CB52082000B5625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4AC20B1CB52083000B5625;
+			remoteInfo = TT_OpenBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4AC20C1CB52083000B5625 /* TT_OpenBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TT_OpenBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC2101CB52083000B5625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4AC2121CB52083000B5625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB4AC2131CB52083000B5625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB4AC2151CB52083000B5625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB4AC2161CB52083000B5625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB4AC2191CB52083000B5625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4AC21B1CB52083000B5625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4AC21E1CB52083000B5625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4AC2201CB52083000B5625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC2251CB52083000B5625 /* TT_OpenBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TT_OpenBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC2291CB52083000B5625 /* TT_OpenBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TT_OpenBoxTests.m; sourceTree = "<group>"; };
+		EB4AC22B1CB52083000B5625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC2301CB52083000B5625 /* TT_OpenBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TT_OpenBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4AC2341CB52083000B5625 /* TT_OpenBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TT_OpenBoxUITests.m; sourceTree = "<group>"; };
+		EB4AC2361CB52083000B5625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4AC2091CB52083000B5625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC2221CB52083000B5625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC22D1CB52083000B5625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4AC2031CB52082000B5625 = {
+			isa = PBXGroup;
+			children = (
+				EB4AC20E1CB52083000B5625 /* TT_OpenBox */,
+				EB4AC2281CB52083000B5625 /* TT_OpenBoxTests */,
+				EB4AC2331CB52083000B5625 /* TT_OpenBoxUITests */,
+				EB4AC20D1CB52083000B5625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4AC20D1CB52083000B5625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC20C1CB52083000B5625 /* TT_OpenBox.app */,
+				EB4AC2251CB52083000B5625 /* TT_OpenBoxTests.xctest */,
+				EB4AC2301CB52083000B5625 /* TT_OpenBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4AC20E1CB52083000B5625 /* TT_OpenBox */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC2121CB52083000B5625 /* AppDelegate.h */,
+				EB4AC2131CB52083000B5625 /* AppDelegate.m */,
+				EB4AC2151CB52083000B5625 /* ViewController.h */,
+				EB4AC2161CB52083000B5625 /* ViewController.m */,
+				EB4AC2181CB52083000B5625 /* Main.storyboard */,
+				EB4AC21B1CB52083000B5625 /* Assets.xcassets */,
+				EB4AC21D1CB52083000B5625 /* LaunchScreen.storyboard */,
+				EB4AC2201CB52083000B5625 /* Info.plist */,
+				EB4AC20F1CB52083000B5625 /* Supporting Files */,
+			);
+			path = TT_OpenBox;
+			sourceTree = "<group>";
+		};
+		EB4AC20F1CB52083000B5625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC2101CB52083000B5625 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4AC2281CB52083000B5625 /* TT_OpenBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC2291CB52083000B5625 /* TT_OpenBoxTests.m */,
+				EB4AC22B1CB52083000B5625 /* Info.plist */,
+			);
+			path = TT_OpenBoxTests;
+			sourceTree = "<group>";
+		};
+		EB4AC2331CB52083000B5625 /* TT_OpenBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AC2341CB52083000B5625 /* TT_OpenBoxUITests.m */,
+				EB4AC2361CB52083000B5625 /* Info.plist */,
+			);
+			path = TT_OpenBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4AC20B1CB52083000B5625 /* TT_OpenBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC2391CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBox" */;
+			buildPhases = (
+				EB4AC2081CB52083000B5625 /* Sources */,
+				EB4AC2091CB52083000B5625 /* Frameworks */,
+				EB4AC20A1CB52083000B5625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TT_OpenBox;
+			productName = TT_OpenBox;
+			productReference = EB4AC20C1CB52083000B5625 /* TT_OpenBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4AC2241CB52083000B5625 /* TT_OpenBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC23C1CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBoxTests" */;
+			buildPhases = (
+				EB4AC2211CB52083000B5625 /* Sources */,
+				EB4AC2221CB52083000B5625 /* Frameworks */,
+				EB4AC2231CB52083000B5625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4AC2271CB52083000B5625 /* PBXTargetDependency */,
+			);
+			name = TT_OpenBoxTests;
+			productName = TT_OpenBoxTests;
+			productReference = EB4AC2251CB52083000B5625 /* TT_OpenBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4AC22F1CB52083000B5625 /* TT_OpenBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4AC23F1CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBoxUITests" */;
+			buildPhases = (
+				EB4AC22C1CB52083000B5625 /* Sources */,
+				EB4AC22D1CB52083000B5625 /* Frameworks */,
+				EB4AC22E1CB52083000B5625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4AC2321CB52083000B5625 /* PBXTargetDependency */,
+			);
+			name = TT_OpenBoxUITests;
+			productName = TT_OpenBoxUITests;
+			productReference = EB4AC2301CB52083000B5625 /* TT_OpenBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4AC2041CB52082000B5625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TT_code;
+				TargetAttributes = {
+					EB4AC20B1CB52083000B5625 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB4AC2241CB52083000B5625 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB4AC20B1CB52083000B5625;
+					};
+					EB4AC22F1CB52083000B5625 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB4AC20B1CB52083000B5625;
+					};
+				};
+			};
+			buildConfigurationList = EB4AC2071CB52082000B5625 /* Build configuration list for PBXProject "TT_OpenBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4AC2031CB52082000B5625;
+			productRefGroup = EB4AC20D1CB52083000B5625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4AC20B1CB52083000B5625 /* TT_OpenBox */,
+				EB4AC2241CB52083000B5625 /* TT_OpenBoxTests */,
+				EB4AC22F1CB52083000B5625 /* TT_OpenBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4AC20A1CB52083000B5625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC21F1CB52083000B5625 /* LaunchScreen.storyboard in Resources */,
+				EB4AC21C1CB52083000B5625 /* Assets.xcassets in Resources */,
+				EB4AC21A1CB52083000B5625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC2231CB52083000B5625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC22E1CB52083000B5625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4AC2081CB52083000B5625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC2171CB52083000B5625 /* ViewController.m in Sources */,
+				EB4AC2141CB52083000B5625 /* AppDelegate.m in Sources */,
+				EB4AC2111CB52083000B5625 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC2211CB52083000B5625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC22A1CB52083000B5625 /* TT_OpenBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4AC22C1CB52083000B5625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4AC2351CB52083000B5625 /* TT_OpenBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4AC2271CB52083000B5625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4AC20B1CB52083000B5625 /* TT_OpenBox */;
+			targetProxy = EB4AC2261CB52083000B5625 /* PBXContainerItemProxy */;
+		};
+		EB4AC2321CB52083000B5625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4AC20B1CB52083000B5625 /* TT_OpenBox */;
+			targetProxy = EB4AC2311CB52083000B5625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4AC2181CB52083000B5625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4AC2191CB52083000B5625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4AC21D1CB52083000B5625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4AC21E1CB52083000B5625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4AC2371CB52083000B5625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4AC2381CB52083000B5625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4AC23A1CB52083000B5625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TT_OpenBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB4AC23B1CB52083000B5625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TT_OpenBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB4AC23D1CB52083000B5625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TT_OpenBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TT_OpenBox.app/TT_OpenBox";
+			};
+			name = Debug;
+		};
+		EB4AC23E1CB52083000B5625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TT_OpenBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TT_OpenBox.app/TT_OpenBox";
+			};
+			name = Release;
+		};
+		EB4AC2401CB52083000B5625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TT_OpenBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TT_OpenBox;
+			};
+			name = Debug;
+		};
+		EB4AC2411CB52083000B5625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TT_OpenBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TT-OpenBoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TT_OpenBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4AC2071CB52082000B5625 /* Build configuration list for PBXProject "TT_OpenBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC2371CB52083000B5625 /* Debug */,
+				EB4AC2381CB52083000B5625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4AC2391CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC23A1CB52083000B5625 /* Debug */,
+				EB4AC23B1CB52083000B5625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB4AC23C1CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC23D1CB52083000B5625 /* Debug */,
+				EB4AC23E1CB52083000B5625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB4AC23F1CB52083000B5625 /* Build configuration list for PBXNativeTarget "TT_OpenBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4AC2401CB52083000B5625 /* Debug */,
+				EB4AC2411CB52083000B5625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4AC2041CB52082000B5625 /* Project object */;
+}
