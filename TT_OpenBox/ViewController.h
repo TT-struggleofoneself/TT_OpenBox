@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TTView.h"
 @interface ViewController : UIViewController
+
+
+
+@property (weak, nonatomic) IBOutlet TTView *ttview;
+
 
 
 @end

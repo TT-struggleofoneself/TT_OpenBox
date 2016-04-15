@@ -15,6 +15,7 @@
 		EB4AC21F1CB52083000B5625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4AC21D1CB52083000B5625 /* LaunchScreen.storyboard */; };
 		EB4AC22A1CB52083000B5625 /* TT_OpenBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2291CB52083000B5625 /* TT_OpenBoxTests.m */; };
 		EB4AC2351CB52083000B5625 /* TT_OpenBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2341CB52083000B5625 /* TT_OpenBoxUITests.m */; };
+		EB4AC2441CB522A3000B5625 /* TTView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4AC2431CB522A3000B5625 /* TTView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EB4AC2301CB52083000B5625 /* TT_OpenBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TT_OpenBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4AC2341CB52083000B5625 /* TT_OpenBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TT_OpenBoxUITests.m; sourceTree = "<group>"; };
 		EB4AC2361CB52083000B5625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4AC2421CB522A3000B5625 /* TTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTView.h; sourceTree = "<group>"; };
+		EB4AC2431CB522A3000B5625 /* TTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EB4AC2131CB52083000B5625 /* AppDelegate.m */,
 				EB4AC2151CB52083000B5625 /* ViewController.h */,
 				EB4AC2161CB52083000B5625 /* ViewController.m */,
+				EB4AC2421CB522A3000B5625 /* TTView.h */,
+				EB4AC2431CB522A3000B5625 /* TTView.m */,
 				EB4AC2181CB52083000B5625 /* Main.storyboard */,
 				EB4AC21B1CB52083000B5625 /* Assets.xcassets */,
 				EB4AC21D1CB52083000B5625 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				EB4AC2171CB52083000B5625 /* ViewController.m in Sources */,
 				EB4AC2141CB52083000B5625 /* AppDelegate.m in Sources */,
+				EB4AC2441CB522A3000B5625 /* TTView.m in Sources */,
 				EB4AC2111CB52083000B5625 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

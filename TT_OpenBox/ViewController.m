@@ -16,12 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //设置父试图旋转  有一点3D效果。
+
+    CGFloat angle =  -M_PI*1/5;
+    self.ttview.layer.transform=CATransform3DMakeRotation(angle, 1, 0, 1);
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
